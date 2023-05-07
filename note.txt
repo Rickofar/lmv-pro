@@ -1,0 +1,303 @@
+#brief {
+  position: relative;
+  z-index: -2;
+  margin-top: 300px;
+  margin-bottom: 20px;
+}
+
+#brief h3 {
+  color: black;
+  font-weight: bold;
+  padding: 10px;
+}
+
+#brief article {
+  display: grid;
+}
+
+#brief article p {
+  color: black;
+  font-size: 18px;
+}
+
+#brief img {
+  width: 350px;
+}
+
+#mission {
+  position: relative;
+  z-index: -2;
+  margin-top: 380px;
+  margin-bottom: 20px;
+}
+
+#mission h3 {
+  color: black;
+  font-weight: bold;
+  padding: 10px;
+}
+
+#mission article {
+  display: grid;
+}
+
+#mission article p {
+  color: black;
+  font-size: 18px;
+  margin-left: 340px;
+  text-align: center;
+}
+
+#mission img {
+  width: 200px;
+  margin-top: 20px;
+}
+
+.about {
+  position: relative;
+  z-index: -2;
+  margin-top: 210px;
+  margin-bottom: 20px;
+}
+
+.about #vision,
+.about #values {
+  color: black;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.about article {
+  display: grid;
+}
+
+.about article p {
+  color: black;
+  font-size: 18px;
+  text-align: center;
+}
+
+.about img {
+  width: 180px;
+  margin-top: 20px;
+}
+
+#team {
+  position: relative;
+  z-index: -2;
+  margin-top: 450px;
+  margin-bottom: 20px;
+}
+
+#team h3 {
+  color: black;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+}
+
+#team article {
+  display: grid;
+}
+
+#team article p {
+  color: black;
+  font-size: 18px;
+}
+
+#team img {
+  width: 350px;
+}
+
+<section id="brief">
+        <h3 class="text-center">Managing Director's Brief</h3>
+
+        <article class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+          <img
+            src="./img/2023_05_04_11_08_IMG_4997.JPG"
+            alt="Managing Director"
+          />
+        </article>
+
+        <article class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+          <p>
+            Here at <strong>LMV-PRO Lights</strong>,<br />
+            we provide innovative ideas<br />
+            that continually lead us to<br />
+            achieving unconventional designs<br />
+            that reach far beyond the<br />
+            predictable expectations in<br />
+            line any event brief!
+          </p>
+          <p>
+            Here at <strong>LMV-PRO Lights</strong>,<br />
+            we provide innovative ideas<br />
+            that continually lead us to achieving<br />
+            unconventional designs<br />
+            that reach far beyond the<br />
+            predictable expectations in line any event brief!
+          </p>
+        </article>
+
+        <article class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+          <p>
+            Here at <strong>LMV-PRO Lights</strong>,<br />
+            we provide innovative ideas<br />
+            that continually lead us to<br />
+            achieving unconventional designs<br />
+            that reach far beyond the<br />
+            predictable expectations in<br />
+            line any event brief!
+          </p>
+          <p>
+            Here at <strong>LMV-PRO Lights</strong>,<br />
+            we provide innovative ideas<br />
+            that continually lead us to achieving<br />
+            unconventional designs<br />
+            that reach far beyond the<br />
+            predictable expectations in line any event brief!
+          </p>
+        </article>
+      </section>
+
+      <section id="mission">
+        <h3 class="text-center">Our Mission</h3>
+        <article class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+          <p>
+            Here at <strong>LMV-PRO Lights</strong>, we provide innovative ideas
+            that continually lead us to achieving unconventional designs that
+            reach far beyond the predictable expectations in line any event
+            brief!
+          </p>
+        </article>
+
+        <article class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+          <img src="./img/black_logo.png" alt="Our Mission" />
+        </article>
+      </section>
+
+      <section class="about">
+        <h3 id="vision" class="text-center col-lg-6 col-md-6 col-sm-6 col-xs-6">
+          Our Vision
+        </h3>
+
+        <h3 id="values" class="text-center col-lg-6 col-md-6 col-sm-6 col-xs-6">
+          Our Values
+        </h3>
+
+        <article class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+          <p>
+            Here at <strong>LMV-PRO Lights</strong>, we provide innovative ideas
+            that continually lead us to achieving unconventional designs that
+            reach far beyond the predictable expectations in line any event
+            brief!
+          </p>
+        </article>
+
+        <article class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+          <img src="./img/black_logo.png" alt="Our Vision" />
+        </article>
+
+        <article class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+          <p>
+            Here at <strong>LMV-PRO Lights</strong>, we provide innovative ideas
+            that continually lead us to achieving unconventional designs that
+            reach far beyond the predictable expectations in line any event
+            brief!
+          </p>
+        </article>
+
+        <article class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+          <img src="./img/black_logo.png" alt="Our Values" />
+        </article>
+      </section>
+
+      <section id="team">
+        <h3>Our Team</h3>
+
+        <article class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+          <img
+            src="./img/2023_05_04_11_08_IMG_4997.JPG"
+            alt="Managing Director"
+          />
+        </article>
+
+        <article class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+          <p>
+            Here at <strong>LMV-PRO Lights</strong>,<br />
+            we provide innovative ideas<br />
+            that continually lead us to<br />
+            achieving unconventional designs<br />
+            that reach far beyond the<br />
+            predictable expectations in<br />
+            line any event brief!
+          </p>
+          <p>
+            Here at <strong>LMV-PRO Lights</strong>,<br />
+            we provide innovative ideas<br />
+            that continually lead us to achieving<br />
+            unconventional designs<br />
+            that reach far beyond the<br />
+            predictable expectations in line any event brief!
+          </p>
+        </article>
+
+        <article class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+          <p>
+            Here at <strong>LMV-PRO Lights</strong>,<br />
+            we provide innovative ideas<br />
+            that continually lead us to<br />
+            achieving unconventional designs<br />
+            that reach far beyond the<br />
+            predictable expectations in<br />
+            line any event brief!
+          </p>
+          <p>
+            Here at <strong>LMV-PRO Lights</strong>,<br />
+            we provide innovative ideas<br />
+            that continually lead us to achieving<br />
+            unconventional designs<br />
+            that reach far beyond the<br />
+            predictable expectations in line any event brief!
+          </p>
+        </article>
+      </section>
+
+      /* optional codes *
+.about-nav {
+  position: fixed;
+  z-index: 1;
+  margin-bottom: 20px;
+  top: 244px;
+  width: 100%;
+  left: 0;
+  background: #68676b;
+}
+
+.about-nav ul {
+  list-style: none;
+  display: ruby;
+}
+
+.about-nav li {
+  inline-size: 200px;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.about-nav li a {
+  text-decoration: none;
+  color: black;
+}
+
+
+      <!-- <div class="about-nav text-center">
+        <ul>
+          <li><a href="#who">Who Are We?</a></li>
+          <li><a href="#mission">Our Mission</a></li>
+          <li><a href="#vision">Our Vision</a></li>
+          <li><a href="#values">Our Values</a></li>
+          <li><a href="#brief">Director's Brief</a></li>
+          <li><a href="#team">Our Team</a></li>
+        </ul>
+      </div> -->
