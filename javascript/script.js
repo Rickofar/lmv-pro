@@ -9,3 +9,9 @@ mobileMenuBtn.addEventListener("click", () => {
     mobileMenuBtn.innerHTML = "Menu";
   }
 });
+
+// When the user clicks on <span>, open the popup
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
