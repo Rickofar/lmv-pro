@@ -573,6 +573,29 @@ nav img {
   color: white;
 }
 
+#contact {
+  margin-top: 0px;
+  display: grid;
+}
+
+#contact h3 {
+  text-align: center;
+}
+
+.contact-tiles {
+  width: 40%;
+  display: block;
+  padding: 10px;
+  height: 80px;
+  margin-top: 0x;
+  background: aliceblue;
+  margin-bottom: 20px;
+}
+
+.contact-tiles a {
+  margin-inline: 10px;
+}
+
 /*-- footer --*/
 
 .main-footer {
