@@ -255,11 +255,11 @@ nav img {
   text-align: center;
 }
 
-#about img {
+/* #about img {
   height: 120px;
-  margin-top: -35px;
+
   margin-bottom: -35px;
-}
+} */
 
 #about td {
   text-align: center;
@@ -267,19 +267,11 @@ nav img {
   font-size: 18px;
 }
 
-#values {
-  display: block;
-  float: right;
-  margin-right: -200px;
-  margin-bottom: -35px;
-}
-
 #brief {
   position: relative;
-  margin-top: 330px;
+  margin-top: 230px;
   width: 300px;
   z-index: -9;
-  /* background: aliceblue; */
 }
 
 #brief th {
@@ -317,7 +309,6 @@ nav img {
 #team {
   position: relative;
   margin-top: 20px;
-  width: 100%;
   z-index: -9;
 }
 
@@ -327,7 +318,7 @@ nav img {
 }
 
 #team img {
-  height: 120px;
+  height: 140px;
   margin-top: -10px;
 }
 
@@ -335,13 +326,6 @@ nav img {
   text-align: center;
   padding: 20px;
   font-size: 18px;
-}
-
-#values {
-  display: block;
-  float: right;
-  margin-right: -200px;
-  margin-bottom: -35px;
 }
 
 /*-- service page **/
@@ -900,17 +884,6 @@ p {
     font-size: 14px;
   }
 
-  #values {
-    margin-right: -75px;
-    margin-bottom: -35px;
-  }
-
-  #about img {
-    height: 60px;
-    margin-top: -25px;
-    margin-bottom: 0;
-  }
-
   #brief {
     margin-top: 20px;
     width: 100%;
@@ -930,11 +903,11 @@ p {
 
   #team {
     margin-top: 0;
-    margin-left: -10px;
+    /* margin-left: -10px; */
   }
 
   #team th {
-    font-size: 16px;
+    font-size: 13px;
   }
 
   #team td {
@@ -942,13 +915,8 @@ p {
     font-size: 14px;
   }
 
-  #values {
-    margin-right: -90px;
-    margin-bottom: -35px;
-  }
-
   #team img {
-    height: 50px;
+    height: 30px;
     margin-top: -5px;
     margin-bottom: 0;
   }
