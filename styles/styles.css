@@ -717,6 +717,7 @@ p {
   position: relative;
   color: wheat;
   cursor: pointer;
+  font-size: 14px;
 }
 
 /* The actual popup (appears on top) */
@@ -745,6 +746,10 @@ p {
   border-width: 5px;
   border-style: solid;
   border-color: #555 transparent transparent transparent;
+}
+
+#myPopup {
+  font-size: 14px;
 }
 
 /* Toggle this class when clicking on the popup container (hide and show the popup) */
@@ -890,8 +895,12 @@ p {
     display: none;
   }
 
-  #myPopup {
+  .popup {
     font-size: 12px;
+  }
+
+  #myPopup {
+    font-size: 10px;
   }
 
   .popup .popuptext {
@@ -968,12 +977,12 @@ p {
   }
 
   #team td {
-    padding: 10px;
+    padding: 5px;
     font-size: 14px;
   }
 
   #team img {
-    height: 30px;
+    height: 32px;
     margin-top: -5px;
     margin-bottom: 0;
   }
