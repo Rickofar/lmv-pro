@@ -778,6 +778,46 @@ p {
   }
 }
 
+/** Contact Page **/
+#contact-form,
+#contact-form2 {
+  position: relative;
+  display: inline-block;
+  width: 50%;
+  margin-inline: 40px;
+  border: 1px solid;
+  background: blanchedalmond;
+  width: 328px;
+  height: 445px;
+  margin-top: 10px;
+  padding: 20px;
+}
+
+label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+#firstname,
+#lastname {
+  width: 200px;
+}
+
+#email {
+  width: 224px;
+}
+
+#number {
+  width: 180px;
+}
+
+#leave-a-message {
+  width: 280px;
+  height: 120px;
+}
+
 /**  Mobile Menu **/
 
 #mobile-menu-btn {
@@ -842,7 +882,7 @@ p {
     align-items: center;
     z-index: 2;
     margin-top: 75px;
-    width: 150px;
+    width: 200px;
     height: 255px;
     position: fixed;
   }
@@ -850,8 +890,8 @@ p {
   .mobile-menu li {
     list-style: none;
     margin-right: 20px;
-    border: 1px solid white;
-    width: 130px;
+    border-bottom: 1px solid white;
+    width: 180px;
     padding: 10px;
     font-size: 16px;
   }
