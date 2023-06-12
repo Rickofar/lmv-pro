@@ -1,158 +1,587 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Professional Stage Lights Supplier" />
-    <meta name="description" content="Event Management" />
-    <link rel="stylesheet" type="text/css" href="styles/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="styles/styles.css" />
-    <link rel="icon" href="./img/logo.png" />
-    <link rel="apple-touch-icon" href="./img/black_logo.png" />
-    <title>LMV Pro Lights || Lights, Camera, Action...</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./bootstrap-5.3.0/css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./lightbox/css/lightbox.css" />
+    <link rel="icon" href="./img/logos/logo.png" />
+    <title>LMV-Pro || Lights, Cameras & Actions...</title>
   </head>
   <body>
-    <div class="bg">
-      <video autoplay loop muted plays-inline class="bg-video">
-        <source src="vid/LVM-Web BG.mp4" type="video/mp4" />
-      </video>
-    </div>
-    <header>
-      <nav class="fixed-nav-bar">
-        <div class="text-center" id="mobile-logo">
-          <a href="index.html"><img src="img/logo.png" alt="" /></a>
+    <!-- DESKTOP MENU NAVIGATION -->
+
+    <nav class="desktop-menu">
+      <div class="container nav-menu">
+        <div class="logo">
+          <a href="#"><img src="./img/logos/logo.png" alt="site-logo" /> </a>
         </div>
-        <div class="container">
-          <ul class="nav-list">
-            <li>
-              <a href="services.html">Services</a>
-              <ul class="dropdown">
-                <li><a href="concerts.html">Concerts</a></li>
-                <li><a href="marriages.html">Marraige Receptions</a></li>
-                <li><a href="others.html">Other Events</a></li>
-              </ul>
-            </li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-            <li>
-              <a href="#">Gallery</a>
-              <ul class="dropdown">
-                <li><a href="#">Pictures</a></li>
-                <li><a href="#">Videos</a></li>
-              </ul>
+
+        <div class="nav-links">
+          <ul>
+            <li><a href="#home" class="active links">Home</a></li>
+            <li><a href="#about" class="links">About Us</a></li>
+            <li><a href="#portfolio" class="links">Portfolio</a></li>
+            <li><a href="#service" class="links">Services</a></li>
+            <li><a href="#blog" class="links">Updates</a></li>
+            <li><a href="#contact" class="links">Contact</a></li>
+            <li class="hire-us">
+              <a href="#hire-us" class="links"><span>Hire Us</span></a>
             </li>
           </ul>
         </div>
-        <strong id="mobile-menu-btn">Menu</strong>
-      </nav>
-    </header>
+      </div>
 
-    <!-- mobile nav -->
-    <nav class="mobile-menu text-right">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="services.html">Services</a></li>
-      <li><a href="about.html">About Us</a></li>
-      <li><a href="contact.html">Contact Us</a></li>
-      <li><a href="#">Gallery</a></li>
+      <div class="menu">
+        <img
+          src="./img/buttons/menu.png"
+          alt="dropdown-menu"
+          height="30px"
+          width="30px"
+        />
+      </div>
     </nav>
 
-    <main class="container" id="main-content">
-      <div class="text-center" id="site-map1">
-        <p><b>Home</b></p>
-      </div>
+    <!-- MOBILE MENU NAVIGATION -->
+    <nav class="mobile-menu">
+      <ul>
+        <li><a href="#home" class="active links">Home</a></li>
+        <li><a href="#about" class="links">About Us</a></li>
+        <li><a href="#portfolio" class="links">Portfolio</a></li>
+        <li><a href="#service" class="links">Services</a></li>
+        <li><a href="#blog" class="links">Updates</a></li>
+        <li><a href="#contact" class="links">Contact</a></li>
+        <li class="hire-us">
+          <a href="#hire-us" class="links"><span>Hire Us</span></a>
+        </li>
+      </ul>
+    </nav>
 
-      <div
-        class="home-title text-center col-lg-12 col-md-12 col-sm-12 col-xs-12"
-      >
-        <h1>LIGHTS, CAMERA & ACTION</h1>
-      </div>
+    <!-- HOME CONTENTS -->
 
-      <div class="home-btn text-center col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <h4><a href="services.html">Explore</a></h4>
-      </div>
-    </main>
+    <div id="home">
+      <div class="hero" id="top">
+        <div class="background">
+          <video autoplay loop muted>
+            <source src="./vid/LVM-Web BG.mp4" />
+          </video>
+        </div>
 
-    <footer class="main-footer">
+        <div class="page-title">
+          <h1>Lights, Cameras and Actions...</h1>
+        </div>
+
+        <div class="bouncing-mouse col-md-12 col-sm-12">
+          <div class="mouse"></div>
+          <span class="mouse-btn"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="home container">
+      <div class="contents row">
+        <div class="details col-md-6 col-sm-12">
+          <div class="greetings">
+            <span>👋 Hello, we are</span>
+          </div>
+          <div class="name">
+            <h3>LMV-Pro Lights</h3>
+          </div>
+          <div class="job">
+            <p>
+              We are Professional
+              <span id="purple">Stage Lights</span> supplier from
+              <span id="green">Warri</span>
+            </p>
+          </div>
+          <div class="description">
+            <p>
+              We are creative, innovative and professional stage lights
+              suppliers based in Warri, Delta State.
+            </p>
+          </div>
+          <div class="info-button">
+            <div class="abt-btn">
+              <a href="#about"><span>About Us</span></a>
+            </div>
+            <div class="social">
+              <ul>
+                <li>
+                  <a href="#"
+                    ><img
+                      src="./img/facebook-app-symbol.png"
+                      alt="facebook"
+                      id="facebook"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="./img/twitter.png" alt="twitter" id="twitter"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img
+                      src="./img/instagram.png"
+                      alt="instagram"
+                      id="instagram"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="./img/snapchat.png" alt="snapchat" id="snapchat"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="avater col-md-6 col-sm-12">
+          <div class="image">
+            <img src="./img/display_pictures/avatar.png" alt="avatar" />
+            <div class="skills">
+              <span class="music"
+                ><a href="#concert"
+                  ><img
+                    src="./img/display_pictures/lmv-music-01.png"
+                    alt="Concerts" /></a
+              ></span>
+              <span class="heart"
+                ><a href="#wedding"
+                  ><img
+                    src="./img/display_pictures/heart.png"
+                    alt="Weddings" /></a
+              ></span>
+              <span class="playlist"
+                ><a href="#others"
+                  ><img
+                    src="./img/display_pictures/lmv-playlist-01.png"
+                    alt="Events" /></a
+              ></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- End of Home Contents -->
+
+    <!-- go top -->
+
+    <div class="top">
+      <a href="#top"><span>TO TOP </span></a>
+    </div>
+
+    <!-- ABOUT US SECTION -->
+
+    <div id="about" class="about-section">
       <div class="container">
-        <div class="sticky-whatsapp text-right col-lg-12">
-          <a href="#" target="_blank"
-            ><img src="img/whatsapp.png" alt="Sticky WhatsApp"
-          /></a>
-        </div>
-
-        <div class="back-to-top text-right col-lg-12">
-          <a href="#">Top &UpArrow;</a>
-        </div>
-
-        <div class="address text-center col-lg-4 col-md-3 col-sm-3 col-xs-3">
-          <h4><img src="img/Location.png" alt="Location" /></h4>
-          <p>1 Okoshone Street,</p>
-          <p>Okan, Agbarho 333110</p>
-          <p>Delta State,</p>
-          <p>Nigeria</p>
-        </div>
-
-        <div
-          class="social-media text-center col-lg-6 col-md-3 col-sm-3 col-xs-6"
-        >
-          <ul>
-            <li>
-              <a href="#" target="_blank"
-                ><img src="img/snapchat.png" alt="Snapchat"
-              /></a>
-            </li>
-            <li>
-              <a href="#" target="_blank"
-                ><img src="img/instagram.png" alt="Instagram"
-              /></a>
-            </li>
-            <li>
-              <a href="#" target="_blank"
-                ><img src="img/twitter.png" alt="Twitter"
-              /></a>
-            </li>
-            <li>
-              <a href="email:contact@lmv-prolights.com" target="_blank"
-                ><img src="img/email.png" alt="Email"
-              /></a>
-            </li>
-            <li>
-              <a href="#" target="_blank"
-                ><img src="img/facebook.png" alt="Facebook"
-              /></a>
-            </li>
-            <li>
-              <a href="call:081********"
-                ><img src="img/Telephone.png" alt="Call LMV"
-              /></a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="reviews text-center col-lg-4 col-md-3 col-sm-3 col-xs-3">
-          <h4>Reviews</h4>
-          <p>lorem ipsum lorem ipsum lorem ipsum</p>
-          <p>lorem ipsum lorem ipsum lorem</p>
+        <div class="about-contents row">
+          <div class="about-list">
+            <ul>
+              <li class="col-md-4 col-sm-12">
+                <div class="inner-list">
+                  <div class="icon">
+                    <img src="./img/our_vision.png" alt="" />
+                  </div>
+                  <div class="title"><h3>Our Vision</h3></div>
+                  <div class="text">
+                    <p>
+                      Most common methods for designing websites that work well
+                      on desktop is responsive and adaptive design.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="col-md-4 col-sm-12">
+                <div class="inner-list">
+                  <div class="icon">
+                    <img src="./img/our_mission.png" alt="" />
+                  </div>
+                  <div class="title"><h3>Our Mission</h3></div>
+                  <div class="text">
+                    <p>
+                      Most common methods for designing websites that work well
+                      on desktop is responsive and adaptive design.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="col-md-4 col-sm-12">
+                <div class="inner-list">
+                  <div class="icon" id="values">
+                    <img src="./img/our_values.png" alt="" />
+                  </div>
+                  <div class="title"><h3>Our Values</h3></div>
+                  <div class="text">
+                    <p>
+                      Most common methods for designing websites that work well
+                      on desktop is responsive and adaptive design.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
 
-      <div class="copyright text-center col-lg-12">
-        <p class="popup" onclick="myFunction()">
-          Privacy Policy
-          <span class="popuptext" id="myPopup"
-            >Phone numbers, email address and other contact information may be
-            collected on this website via our contact form and gathered solely
-            for marketing purposes. We, through this privacy policy statement,
-            pledge to adhere strictly to protect client's right to privacy and
-            none of such information collected and gathere on this website will
-            be shared with third parties.</span
-          >
-        </p>
-        <p><a href="#">LMV-PRO Lights © 2023</a></p>
+      <div class="spiral">
+        <img src="./img/1_008.png" alt="" />
       </div>
-    </footer>
+      <div class="container">
+        <div class="about-details row">
+          <div class="about-details-image">
+            <img src="./img/display_pictures/about_img_1.png" alt="" />
+
+            <div class="wrapper">
+              <div class="number-years">
+                <div class="years">
+                  <h3>5</h3>
+                  <span
+                    >Years <br />
+                    of Success</span
+                  >
+                </div>
+              </div>
+              <div class="projects">
+                <div class="total-projects">
+                  <h3>100+</h3>
+                  <span
+                    >Total <br />
+                    Projects</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="about-details-info col-md-6 col-sm-12">
+            <div class="role">
+              <span>We are LMV-Pro Lights</span>
+              <h3>I Can Design Anything You Want</h3>
+            </div>
+            <div class="role-details">
+              <p>
+                Hello there! I'm a web designer, and I'm very passionate and
+                dedicated to my work. With 20 years experience as a professional
+                web developer, I have acquired the skills and knowledge
+                necessary to make your project a success. I enjoy every step of
+                the design process, from discussion and collaboration.
+              </p>
+            </div>
+            <div class="hire" id="hire-us">
+              <div class="hire-btn">
+                <a href="https://wa.me/2348179290343" target="_blank"
+                  ><span>Hire Us</span></a
+                >
+              </div>
+            </div>
+            <div class="splash"><img src="./img/2_003.png" alt="" /></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PORTFOLIO SECTION -->
+
+    <div class="portfolio-section" id="portfolio">
+      <div class="portfolio row">
+        <div class="portfolio">
+          <div class="splash-2">
+            <img src="./img/1_004.png" alt="" />
+          </div>
+          <div class="portfolio-head">
+            <span>Our Portfolio</span>
+            <h3>Our Amazing Works</h3>
+            <p>
+              Here at LMV-Pro Lights, we provide innovative ideas that
+              continually lead us to achieving unconventional designs that reach
+              far beyond the predictable expectations in line with any events
+              brief!
+            </p>
+          </div>
+          <div class="portfolio-links">
+            <ul>
+              <li>
+                <a href="#all-gallery" class="active-portfolio links"
+                  >All Photo Gallery</a
+                >
+              </li>
+              <li><a href="#concert" class="links">Concerts</a></li>
+              <li><a href="#wedding" class="links">Weddings</a></li>
+              <li><a href="#others" class="links">Other Events</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- gallery -->
+
+        <div class="gallery-container">
+          <h2>Our Gallery</h2>
+
+          <div class="gallery" id="all-gallery">
+            <div class="all-gallery">
+              <a
+                href="./gallery/pictures/concert_1.JPG"
+                data-lightbox="allGallery"
+                ><img src="./gallery/pic_thumb_nails/thumbnail_01.jpg" />
+                <span> All </span></a
+              >
+              <a
+                href="./gallery/pictures/concert_1.JPG"
+                data-lightbox="allGallery"
+              ></a>
+
+              <a
+                href="./gallery/pictures/concert_2.JPG"
+                data-lightbox="allGallery"
+              ></a>
+              <a
+                href="./gallery/pictures/concert_3.JPG"
+                data-lightbox="allGallery"
+              ></a>
+              <a
+                href="./gallery/pictures/concert_4.JPG"
+                data-lightbox="allGallery"
+              ></a>
+              <a
+                href="./gallery/pictures/concert_5.JPG"
+                data-lightbox="allGallery"
+              ></a>
+              <a
+                href="./gallery/pictures/concert_6.JPG"
+                data-lightbox="allGallery"
+              ></a>
+              <a
+                href="./gallery/pictures/concert_7.JPG"
+                data-lightbox="allGallery"
+              ></a>
+              <a
+                href="./gallery/pictures/concert_8.JPG"
+                data-lightbox="allGallery"
+              ></a>
+              <a
+                href="./gallery/pictures/wedding_1.JPG"
+                data-lightbox="allGallery"
+              ></a>
+              <a
+                href="./gallery/pictures/wedding_2.JPG"
+                data-lightbox="allGallery"
+              ></a>
+              <a
+                href="./gallery/pictures/wedding_3.JPG"
+                data-lightbox="allGallery"
+              >
+              </a>
+              <a
+                href="./gallery/pictures/wedding_4.JPG"
+                data-lightbox="allGallery"
+              ></a>
+              <a
+                href="./gallery/pictures/others_1.JPG"
+                data-lightbox="allGallery"
+              >
+              </a>
+              <a
+                href="./gallery/pictures/others_2.JPG"
+                data-lightbox="allGallery"
+              >
+              </a>
+              <a
+                href="./gallery/pictures/others_3.JPG"
+                data-lightbox="allGallery"
+              >
+              </a>
+              <a
+                href="./gallery/pictures/others_4.JPG"
+                data-lightbox="allGallery"
+              >
+              </a>
+              <a
+                href="./gallery/pictures/others_5.JPG"
+                data-lightbox="allGallery"
+              >
+              </a>
+              <a
+                href="./gallery/pictures/others_6.JPG"
+                data-lightbox="allGallery"
+              >
+              </a>
+              <a
+                href="./gallery/pictures/others_7.JPG"
+                data-lightbox="allGallery"
+              >
+              </a>
+              <a
+                href="./gallery/pictures/others_8.JPG"
+                data-lightbox="allGallery"
+              ></a>
+              <a
+                href="./gallery/pictures/others_9.JPG"
+                data-lightbox="allGallery"
+              ></a>
+            </div>
+
+            <!-- concert -->
+
+            <div class="concert" id="concert">
+              <a
+                href="./gallery/pictures/concert_1.JPG"
+                data-lightbox="ourGallery"
+                ><img src="./gallery/pic_thumb_nails/thumbnail_02.jpg" />
+                <span> Concerts </span></a
+              >
+              <a
+                href="./gallery/pictures/concert_2.JPG"
+                data-lightbox="ourGallery"
+              ></a>
+              <a
+                href="./gallery/pictures/concert_3.JPG"
+                data-lightbox="ourGallery"
+              ></a>
+              <a
+                href="./gallery/pictures/concert_4.JPG"
+                data-lightbox="ourGallery"
+              ></a>
+              <a
+                href="./gallery/pictures/concert_5.JPG"
+                data-lightbox="ourGallery"
+              ></a>
+              <a
+                href="./gallery/pictures/concert_6.JPG"
+                data-lightbox="ourGallery"
+              ></a>
+              <a
+                href="./gallery/pictures/concert_7.JPG"
+                data-lightbox="ourGallery"
+              ></a>
+              <a
+                href="./gallery/pictures/concert_8.JPG"
+                data-lightbox="ourGallery"
+              ></a>
+            </div>
+
+            <!-- wedding -->
+
+            <div class="wedding" id="wedding">
+              <a
+                href="./gallery/pictures/wedding_1.JPG"
+                data-lightbox="ourGallery"
+                ><img src="./gallery/pic_thumb_nails/thumbnail_03.jpg" />
+                <span> Weddings </span></a
+              >
+
+              <a
+                href="./gallery/pictures/wedding_2.JPG"
+                data-lightbox="ourGallery"
+              ></a>
+              <a
+                href="./gallery/pictures/wedding_3.JPG"
+                data-lightbox="ourGallery"
+              >
+              </a>
+              <a
+                href="./gallery/pictures/wedding_4.JPG"
+                data-lightbox="ourGallery"
+              ></a>
+            </div>
+
+            <!-- other events -->
+
+            <div class="others" id="others">
+              <a
+                href="./gallery/pictures/others_1.JPG"
+                data-lightbox="ourGallery"
+              >
+                <img src="./gallery/pic_thumb_nails/thumbnail_04.jpg" />
+                <span> Other Events </span></a
+              >
+
+              <a
+                href="./gallery/pictures/others_2.JPG"
+                data-lightbox="ourGallery"
+              >
+              </a>
+              <a
+                href="./gallery/pictures/others_3.JPG"
+                data-lightbox="ourGallery"
+              >
+              </a>
+              <a
+                href="./gallery/pictures/others_4.JPG"
+                data-lightbox="ourGallery"
+              >
+              </a>
+              <a
+                href="./gallery/pictures/others_5.JPG"
+                data-lightbox="ourGallery"
+              >
+              </a>
+              <a
+                href="./gallery/pictures/others_6.JPG"
+                data-lightbox="ourGallery"
+              >
+              </a>
+              <a
+                href="./gallery/pictures/others_7.JPG"
+                data-lightbox="ourGallery"
+              >
+              </a>
+              <a
+                href="./gallery/pictures/others_8.JPG"
+                data-lightbox="ourGallery"
+              ></a>
+              <a
+                href="./gallery/pictures/others_9.JPG"
+                data-lightbox="ourGallery"
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="paint">
+          <img src="./img/paint2.png" alt="" />
+        </div>
+
+        <!-- portfolio details -->
+
+        <div class="portfolio-design row">
+          <div class="design-details col-md-6 col-sm-12">
+            <span>Design is Life</span>
+            <h3>I Develop Skills Regularly to Keep Me Update</h3>
+            <p>
+              Most common methods for designing websites that work well on
+              desktop is responsive and adaptive design
+            </p>
+            <div>
+              <span class="marker">Concerts</span
+              ><span class="concert-number">85%</span>
+            </div>
+            <div class="bar"><div class="bar-orange"></div></div>
+            <div>
+              <span class="marker">Weddings</span
+              ><span class="wedding-number">95%</span>
+            </div>
+            <div class="bar"><div class="bar-green"></div></div>
+            <div>
+              <span class="marker">Other Events</span
+              ><span class="others-number">75%</span>
+            </div>
+            <div class="bar"><div class="bar-blue"></div></div>
+          </div>
+          <div class="design-image col-md-6 col-sm-12">
+            <img src="./img/portfolio.jpg" alt="" class="img-responsive" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/jquery.js"></script>
+    <script src="./bootstrap-5.3.0/js/bootstrap.js"></script>
+    <script src="./js/script.js"></script>
+    <script type="text/javascript" src="./lightbox/js/lightbox.js"></script>
   </body>
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="javascript/jquery-3.2.1.min.js"></script>
-  <script type="text/javascript" src="javascript/script.js"></script>
 </html>
