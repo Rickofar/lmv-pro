@@ -1348,15 +1348,15 @@ a {
   }
 }
 
-.design-image {
+.portfolio-video {
   width: 40%;
-  right: 50px;
   position: relative;
+  display: flex;
+  /* justify-content: center; */
 }
 
-.design-image img {
-  max-height: auto;
-  max-width: 100%;
+.portfolio-video video {
+  height: 480px;
 }
 
 @media (max-width: 1040px) {
