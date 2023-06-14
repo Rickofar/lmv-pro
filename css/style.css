@@ -1132,24 +1132,26 @@ a {
 
 .video-container {
   background-color: #3c0992;
-  height: 500px;
+  height: 520px;
   width: 70%;
   display: flex;
+  flex-wrap: wrap;
   margin: auto;
+  margin-top: 30px;
   box-shadow: 3px 3px 6px #3c0992cc;
 }
 
 .video-gallery-wrapper {
   margin: 20px;
   width: 100%;
-  height: 70vh;
+  height: calc(100% - 75px);
   background-color: rgb(58, 50, 107);
   display: flex;
 }
 
 .video-list {
   width: 20%;
-  padding: 5px;
+  padding: 15px;
   height: auto;
   overflow: auto;
   scrollbar-width: thin;
@@ -1158,11 +1160,10 @@ a {
 .video-container video {
   width: 100%;
   object-fit: cover;
-  padding: 10px;
   cursor: pointer;
 }
 
-.video-container .main-video {
+.main-video {
   width: 80%;
   height: auto;
   padding: 10px;
@@ -1172,13 +1173,22 @@ a {
   height: 100%;
   width: 100%;
   outline: none;
-  padding: 10px;
+  padding: 5px;
+}
+
+.video-container span {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  color: white;
 }
 
 .paint {
   display: flex;
   justify-content: right;
   margin-top: -240px;
+  z-index: -2;
 }
 
 @media (max-width: 1040px) {
@@ -1205,11 +1215,36 @@ a {
     height: 360px;
   }
 
+  .video-container {
+    height: 400px;
+    width: 90%;
+  }
+
+  .video-list {
+    padding: 15px 10px;
+    width: 25%;
+  }
+
+  .main-video {
+    width: 75%;
+    padding: 10px 5px;
+  }
+
+  /* .video-gallery-wrapper {
+    height: 43vh;
+  } */
+
   .splash-2 {
     display: none;
   }
   .paint {
     display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .video-container {
+    height: 360px;
   }
 }
 
@@ -1220,6 +1255,19 @@ a {
 
   .all-gallery img {
     height: 240px;
+  }
+
+  .video-gallery-wrapper {
+    margin: 10px;
+    height: calc(100% - 55px);
+  }
+
+  .video-container {
+    height: 300px;
+  }
+
+  .video-container span {
+    font-size: 16px;
   }
 }
 
@@ -1237,6 +1285,14 @@ a {
   .others img {
     width: 180px;
     height: 120px;
+  }
+
+  .video-container {
+    height: 240px;
+  }
+
+  .video-gallery-wrapper {
+    height: calc(100% - 55px);
   }
 }
 
