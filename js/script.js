@@ -1,3 +1,5 @@
+// mobile menu
+
 var mobileMenuBtn = document.querySelector(".menu");
 var mobileMenu = document.querySelector(".mobile-menu");
 mobileMenuBtn.addEventListener("click", () => {
@@ -18,4 +20,24 @@ $(document).mouseup(function (e) {
     // Nor a child element of the container
     menu.hide();
   }
+});
+
+// var links = document.querySelectorAll(".links, a .active");
+// links.forEach(function (element) {
+//   element.addEventListener("click", function (e) {
+//     e.preventDefault();
+//     links.forEach(function (element) {
+//       element.classList.remove("active");
+//     });
+//     this.classList.add("active");
+//   });
+// });
+
+// video playlist
+$(document).ready(function () {
+  $(".video-list video").click(function () {
+    $(this).addClass("active-video").siblings().removeClass("active-video");
+    let src = $(this).attr("src");
+    $(".main-video video").attr("src", src);
+  });
 });
