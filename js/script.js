@@ -22,18 +22,21 @@ $(document).mouseup(function (e) {
   }
 });
 
-// var links = document.querySelectorAll(".links, a .active");
-// links.forEach(function (element) {
-//   element.addEventListener("click", function (e) {
-//     e.preventDefault();
-//     links.forEach(function (element) {
-//       element.classList.remove("active");
-//     });
-//     this.classList.add("active");
-//   });
-// });
+//active navbar links
+
+var links = document.querySelectorAll("links, .active");
+links.forEach(function (element) {
+  element.addEventListener("click", function (e) {
+    // e.preventDefault();
+    links.forEach(function (element) {
+      element.classList.remove("active");
+    });
+    this.classList.add("active");
+  });
+});
 
 // video playlist
+
 $(document).ready(function () {
   $(".video-list video").click(function () {
     $(this).addClass("active-video").siblings().removeClass("active-video");
