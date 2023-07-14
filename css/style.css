@@ -1165,7 +1165,20 @@ a {
 	height: auto;
 	overflow: auto;
 	scrollbar-width: thin;
+	scroll-behavior: smooth;
 	margin-top: 52px;
+}
+
+.video-list::-webkit-scrollbar {
+	width: 6px;
+}
+
+.video-list::-webkit-scrollbar-thumb {
+	background-color: #6e50f0;
+}
+
+.video-list::-webkit-scrollbar-track {
+	background-color: #3c0992;
 }
 
 .video-list video {
