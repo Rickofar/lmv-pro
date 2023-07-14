@@ -365,7 +365,7 @@ a {
 }
 
 .abt-btn a:hover {
-	/* border: 3px solid orangered; */
+	/* border: 3px solid #3c0992; */
 	color: black;
 	background-color: transparent;
 }
@@ -1412,7 +1412,7 @@ a {
 	font-size: 17px !important;
 	left: 34%;
 	position: absolute;
-	animation: progress-1 2s ease-in-out 0.5s 3;
+	animation: progress-1 2s ease-in-out 0.5s 1;
 }
 
 @keyframes progress-1 {
@@ -1431,8 +1431,8 @@ a {
 	height: 6px;
 	border-top-left-radius: 10px;
 	border-bottom-left-radius: 10px;
-	background-color: orangered;
-	animation: marker-1 2s ease-in-out 0.5s 3;
+	background-color: #3c0992;
+	animation: marker-1 2s ease-in-out 0.5s 1;
 }
 
 @keyframes marker-1 {
@@ -1449,7 +1449,7 @@ a {
 	font-size: 17px !important;
 	left: 38%;
 	position: absolute;
-	animation: progress-2 2s ease-in-out 0.5s 3;
+	animation: progress-2 2s ease-in-out 0.5s 1;
 }
 
 @keyframes progress-2 {
@@ -1469,7 +1469,7 @@ a {
 	border-top-left-radius: 10px;
 	border-bottom-left-radius: 10px;
 	background-color: green;
-	animation: marker-2 2s ease-in-out 0.5s 3;
+	animation: marker-2 2s ease-in-out 0.5s 1;
 }
 
 @keyframes marker-2 {
@@ -1486,7 +1486,7 @@ a {
 	font-size: 17px !important;
 	left: 30.5%;
 	position: absolute;
-	animation: progress-3 2s ease-in-out 0.5s 3;
+	animation: progress-3 2s ease-in-out 0.5s 1;
 }
 
 @keyframes progress-3 {
@@ -1506,7 +1506,7 @@ a {
 	border-top-left-radius: 10px;
 	border-bottom-left-radius: 10px;
 	background-color: blue;
-	animation: marker-3 2s ease-in-out 0.5s 3;
+	animation: marker-3 2s ease-in-out 0.5s 1;
 }
 
 @keyframes marker-3 {
@@ -1555,7 +1555,6 @@ a {
 	.concert-number {
 		left: 80%;
 		position: absolute;
-		animation: progress-1 2s ease-in-out 0.5s 3;
 	}
 
 	@keyframes progress-1 {
@@ -1666,7 +1665,7 @@ a {
 
 .service-head span {
 	margin-bottom: 6px;
-	color: orangered;
+	color: #3c0992;
 }
 
 .service-head h3 {
@@ -1742,7 +1741,7 @@ a {
 }
 
 .color {
-	color: orangered;
+	color: #3c0992;
 }
 
 .splash5 {
@@ -1762,7 +1761,7 @@ a {
 }
 
 .testimonial-head span {
-	color: orangered;
+	color: #3c0992;
 }
 
 /* carousel */
@@ -1842,14 +1841,14 @@ a {
 	box-sizing: content-box;
 	width: 15px;
 	height: 15px;
-	background-color: orangered;
+	background-color: #3c0992;
 	background-clip: border-box;
 	border-radius: 40px;
 	border: 2px solid white;
 }
 
 .carousel-indicators [data-bs-target].active {
-	outline: 2px solid orangered;
+	outline: 2px solid #3c0992;
 }
 
 .carousel-control-prev-icon,
@@ -1859,19 +1858,19 @@ a {
 
 .carousel-control-prev-icon {
 	display: none;
-	box-shadow: 1px 1px 3px orangered;
+	box-shadow: 1px 1px 3px #3c0992;
 }
 
 .carousel-control-next-icon {
 	display: none;
-	box-shadow: 1px 1px 3px orangered;
+	box-shadow: 1px 1px 3px #3c0992;
 }
 
 .carousel-control-prev:hover,
 .carousel-control-prev:focus,
 .carousel-control-next:hover,
 .carousel-control-next:focus {
-	color: orangered;
+	color: #3c0992;
 }
 
 .floating-images-1 {
@@ -2076,18 +2075,18 @@ a {
 	width: 100%;
 	height: auto;
 	clear: both;
-	opacity: 0.5;
+	filter: grayscale(1);
 	transition: all 0.3s ease-in-out;
 }
 
 .brands-inner ul li .brand-lists:hover {
-	opacity: 1;
+	filter: grayscale(0);
 }
 
 .brand-lists img {
 	max-height: max-content;
-	max-width: 100%;
-	padding: 10px;
+	max-width: 60%;
+	padding: 0px;
 }
 
 .brand-links {
@@ -2101,7 +2100,7 @@ a {
 
 @media (max-width: 1040px) {
 	.service-section {
-		top: 1800px;
+		top: 200px;
 	}
 
 	.splash3,
@@ -2151,7 +2150,7 @@ a {
 	}
 
 	.brands {
-		top: 2170px;
+		top: 500px;
 	}
 
 	.brands-content.container {
@@ -2164,7 +2163,7 @@ a {
 
 @media (max-width: 768px) {
 	.service-section {
-		top: 580px;
+		top: 200px;
 		padding: 0 35px;
 	}
 
@@ -2189,7 +2188,7 @@ a {
 	}
 
 	.brands {
-		top: 900px;
+		top: 500px;
 	}
 
 	.brands-inner ul li {
@@ -2216,7 +2215,7 @@ a {
 }
 
 .blog-head span {
-	color: orangered;
+	color: #3c0992;
 	font-weight: 500;
 	margin-bottom: 6px;
 }
@@ -2339,7 +2338,7 @@ a {
 
 .category a {
 	font-size: 17px;
-	color: orangered;
+	color: #3c0992;
 }
 
 .category-details a {
@@ -2351,7 +2350,7 @@ a {
 }
 
 .category-details a:hover {
-	color: orangered;
+	color: #3c0992;
 }
 
 .blog-details {
@@ -2539,7 +2538,7 @@ modal-heading-2 {
 
 #submit-btn {
 	width: 30%;
-	background-color: #f75023;
+	background-color: #3c0992;
 	color: #fff;
 	font-size: 17px;
 	margin-left: -5px;
@@ -2841,7 +2840,7 @@ modal-heading-2 {
 	width: 100%;
 	height: auto;
 	clear: both;
-	margin-top: 970px;
+	margin-top: 620px;
 }
 
 .contact-head {
@@ -2851,7 +2850,7 @@ modal-heading-2 {
 }
 
 .contact-head span {
-	color: #ff4500;
+	color: #3c0992;
 	margin-bottom: 6px;
 }
 
@@ -2975,8 +2974,8 @@ textarea {
 }
 
 .submit-button a {
-	background: #f75023;
-	border: 2px solid orangered;
+	background: #3c0992;
+	border: 2px solid #3c0992;
 	padding: 15px 44px 15px;
 	border-radius: 50px;
 	transition: all 0.3s ease-in-out;
@@ -3008,9 +3007,17 @@ textarea {
 	height: auto;
 	margin: auto;
 	clear: both;
-	padding: 83px 90px 86px 90px;
+	padding: 13px 10px;
 	margin-top: 120px;
 	background: url(../icon-imgs/dots.jpg);
+}
+
+iframe {
+	border: 0;
+	height: 300px;
+	width: 87vw;
+	margin: auto;
+	padding: 10px;
 }
 
 .map-overlay {
@@ -3045,7 +3052,7 @@ textarea {
 
 @media (max-width: 1040px) {
 	.contact-section {
-		margin-top: 2470px;
+		margin-top: 670px;
 	}
 
 	.contact-head {
@@ -3076,7 +3083,7 @@ textarea {
 
 @media (max-width: 768px) {
 	.contact-section {
-		margin-top: 1170px;
+		margin-top: 550px;
 	}
 
 	.contact-head {
@@ -3093,11 +3100,11 @@ textarea {
 footer {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: center;
 	margin-top: 250px;
-	background-color: #d6dbe5;
-	/* height: 150px; */
-	padding: 50px 80px 30px;
+	color: #fdfdfd;
+	background-color: #000;
+	padding: 20px;
 }
 
 .policy {
@@ -3107,12 +3114,12 @@ footer {
 }
 
 footer a {
-	color: #6f6b80;
+	color: #cec9e5;
 	transition: all 0.3s ease-in-out;
 }
 
 footer a:hover {
-	color: orangered;
+	color: #5300e1;
 }
 
 @media (max-width: 1040px) {
