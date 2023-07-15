@@ -1977,7 +1977,7 @@ a {
 	bottom: -180px;
 	left: 200px;
 	border-radius: 40px;
-	background: url(../icon-imgs/2.jpg);
+	/* background: url(../icon-imgs/2.jpg); */
 	background-size: 100% 100%;
 }
 
@@ -2159,6 +2159,10 @@ a {
 		width: 100%;
 		margin: 0 -3px;
 	}
+
+	.brands-inner ul li .brand-lists {
+		filter: grayscale(0);
+	}
 }
 
 @media (max-width: 768px) {
@@ -2193,6 +2197,12 @@ a {
 
 	.brands-inner ul li {
 		width: 50%;
+	}
+
+	.brand-lists img {
+		max-height: max-content;
+		max-width: 50%;
+		padding: 0px;
 	}
 }
 
@@ -2279,7 +2289,7 @@ a {
 .blog-img-1 {
 	min-height: 240px;
 	min-width: 100%;
-	background: url(../icon-imgs/bg1.jpg);
+	/* background: url(../icon-imgs/bg1.jpg); */
 	background-size: 100% 100%;
 	background-position: center;
 	border-radius: 15px;
@@ -2290,7 +2300,7 @@ a {
 .blog-img-2 {
 	min-height: 240px;
 	min-width: 100%;
-	background: url(../icon-imgs/bg2.jpg);
+	/* background: url(../icon-imgs/bg2.jpg); */
 	background-size: 100% 100%;
 	background-position: center;
 	border-radius: 15px;
@@ -2301,7 +2311,7 @@ a {
 .blog-img-3 {
 	min-height: 240px;
 	min-width: 100%;
-	background: url(../icon-imgs/bg3.jpg);
+	/* background: url(../icon-imgs/bg3.jpg); */
 	background-size: 100% 100%;
 	background-position: center;
 	border-radius: 15px;
@@ -2410,7 +2420,7 @@ a {
 	position: relative;
 	max-width: 100%;
 	margin: auto;
-	background: url(../icon-imgs/bg1.jpg);
+	/* background: url(../icon-imgs/bg1.jpg); */
 	margin-top: -16px;
 	background-size: 100% 100%;
 	background-position: center;
@@ -2423,7 +2433,7 @@ a {
 	position: relative;
 	max-width: 100%;
 	margin: auto;
-	background: url(../icon-imgs/bg2.jpg);
+	/* background: url(../icon-imgs/bg2.jpg); */
 	margin-top: -16px;
 	background-size: 100% 100%;
 	background-position: center;
@@ -2436,7 +2446,7 @@ a {
 	position: relative;
 	max-width: 100%;
 	margin: auto;
-	background: url(../icon-imgs/bg3.jpg);
+	/* background: url(../icon-imgs/bg3.jpg); */
 	margin-top: -16px;
 	background-size: 100% 100%;
 	background-position: center;
@@ -2482,7 +2492,7 @@ modal-heading-2 {
 	clear: both;
 	padding: 83px 90px 86px 90px;
 	margin-top: 120px;
-	background: url(../icon-imgs/dots.jpg);
+	/* background: url(../icon-imgs/dots.jpg); */
 }
 
 .overlay {
@@ -2895,7 +2905,7 @@ modal-heading-2 {
 }
 
 .contact-links img {
-	height: 90px;
+	height: 40px;
 }
 
 .email,
@@ -3009,7 +3019,7 @@ textarea {
 	clear: both;
 	padding: 13px 10px;
 	margin-top: 120px;
-	background: url(../icon-imgs/dots.jpg);
+	/* background: url(../icon-imgs/dots.jpg); */
 }
 
 iframe {
@@ -3105,6 +3115,10 @@ footer {
 	color: #fdfdfd;
 	background-color: #000;
 	padding: 20px;
+}
+
+footer p {
+	text-align: center;
 }
 
 .policy {
